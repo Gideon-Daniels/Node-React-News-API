@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.App {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+h1 {
+  color: white;
+  font-weight: thin;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  background-color: #0072bb;
+  border: white 2px solid;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s linear;
+}
+button:hover {
+  background-color: #a5c8dd;
+  color: #0072bb;
+}
+
